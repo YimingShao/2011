@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="052f5d1b-4701-448d-b5bd-1221a59f9350" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sorting/prorgam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/prorgam.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +16,31 @@
     <session id="-865035209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="226" />
+          <entry key="py" value="2572" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="226" />
+          <entry key="Python" value="2572" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -37,11 +50,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sorting/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="-994">
+              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
-                <marker date="1533672321036" expanded="true" signature="978:1140" ph="..." />
-                <marker date="1533672321036" expanded="true" signature="1162:1214" ph="..." />
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1533773737486" expanded="true" signature="1197:1198" ph="..." />
+                <marker date="1533773737486" expanded="true" signature="1221:1860" ph="..." />
+                <marker date="1533773737486" expanded="true" signature="1944:1953" ph="..." />
+                <marker date="1533773737486" expanded="true" signature="2500:3096" ph="..." />
               </folding>
             </state>
           </provider>
@@ -50,10 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sorting/prorgam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="131">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
-                <marker date="1533591594335" expanded="true" signature="61:264" ph="..." />
+                <marker date="1533772952040" expanded="true" signature="25:31" ph="..." />
+                <marker date="1533772952040" expanded="true" signature="63:125" ph="..." />
               </folding>
             </state>
           </provider>
@@ -84,13 +101,14 @@
         <option value="$PROJECT_DIR$/AVL/progra,.py" />
         <option value="$PROJECT_DIR$/AVL/program.py" />
         <option value="$PROJECT_DIR$/Sorting/dd.py" />
+        <option value="$PROJECT_DIR$/Sorting/heap.py" />
         <option value="$PROJECT_DIR$/Sorting/prorgam.py" />
         <option value="$PROJECT_DIR$/Sorting/api.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="164" />
+    <option name="x" value="360" />
     <option name="y" value="23" />
     <option name="width" value="1203" />
     <option name="height" value="663" />
@@ -108,6 +126,11 @@
             <path>
               <item name="2011" type="b2602c69:ProjectViewProjectNode" />
               <item name="2011" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2011" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2011" type="462c0819:PsiDirectoryNode" />
+              <item name="BST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2011" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="164" y="23" width="1203" height="663" extended-state="0" />
+    <frame x="360" y="23" width="1203" height="663" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24873096" />
@@ -280,7 +303,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.469352" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5884413" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,23 +372,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/heap.py" />
     <entry file="file://$PROJECT_DIR$/Sorting/prorgam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="131">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <marker date="1533591594335" expanded="true" signature="61:264" ph="..." />
+            <marker date="1533772952040" expanded="true" signature="25:31" ph="..." />
+            <marker date="1533772952040" expanded="true" signature="63:125" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="-994">
+          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
-            <marker date="1533672321036" expanded="true" signature="978:1140" ph="..." />
-            <marker date="1533672321036" expanded="true" signature="1162:1214" ph="..." />
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1533773737486" expanded="true" signature="1197:1198" ph="..." />
+            <marker date="1533773737486" expanded="true" signature="1221:1860" ph="..." />
+            <marker date="1533773737486" expanded="true" signature="1944:1953" ph="..." />
+            <marker date="1533773737486" expanded="true" signature="2500:3096" ph="..." />
           </folding>
         </state>
       </provider>
