@@ -104,9 +104,11 @@ def Quick_Sort(my_ary):
     return ary
 
 def Quick_Sort_algrithm(ary, low, high):
-    if low < high:
-        pivot = Partition(ary, low ,high)
 
+    if low < high:
+
+        pivot = Partition(ary, low ,high)
+        print(low, high, pivot)
         # Sort the left hand side
         Quick_Sort_algrithm(ary, low, pivot-1)
         # Sort the right hand side
@@ -132,6 +134,33 @@ def Partition(ary, low, high):
     # Return the index of the previous pivot,
     # all elements in front of the pivot is less than equal to it, vice versa
     return (i+1)
+
+def counting_sort(my_ary, max):
+    max +=1
+    ary = my_ary[:]
+    count_ary = max*[0]
+
+    for e in ary:
+        count_ary[e]+=1
+
+    print(count_ary)
+    for i in range(1, max):
+        count_ary[i] += count_ary[i-1]
+    print(count_ary)
+
+    for e in my_ary:
+        ary[count_ary[e]-1] = e
+        count_ary[e]-=1
+    return ary
+
+
+
+
+
+
+
+
+
 
 
 
