@@ -1,9 +1,19 @@
 from heapq import *
-import plotly.plotly as py
-import plotly.graph_objs as go
 
+
+class Pair:
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
+
+    def getStart(self):
+        return self.start
+
+    def getEnd(self):
+        return self.end
 # Given an array A of n integers, sort them by repetively selecting the smallest among
 # the yet unselected integers.
+
 
 def Selection_Sort(my_ary):
     ary = my_ary[:]
@@ -135,6 +145,35 @@ def Partition(ary, low, high):
     # all elements in front of the pivot is less than equal to it, vice versa
     return (i+1)
 
+
+def Non_recursive_Stack_Quick_Sort(my_ary):
+    stack = []
+    ary = my_ary[:]
+
+    start = 0
+    end = len(my_ary)-1
+
+    stack.append(Pair(start, end))
+
+    while len(stack):
+        start = stack[len(stack)-1].getStart()
+        end =stack[len(stack)-1].getEnd()
+
+        stack.pop()
+
+        pivot = Partition(ary, start, end)
+
+        if pivot - 1 > start:
+            stack.append(Pair(start, pivot - 1))
+        if pivot + 1 < end:
+            stack.append(Pair(pivot+1, end))
+
+    return ary
+
+
+
+
+
 def counting_sort(my_ary, max):
     max +=1
     ary = my_ary[:]
@@ -152,6 +191,10 @@ def counting_sort(my_ary, max):
         ary[count_ary[e]-1] = e
         count_ary[e]-=1
     return ary
+
+
+
+
 
 
 

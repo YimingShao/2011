@@ -2,6 +2,7 @@ import api
 
 
 
+
 def main():
 
     num_ary = [5, 2, 2, 4, 8, 9, 3]
@@ -26,6 +27,10 @@ def main():
 
     new_ary = api.counting_sort(num_ary, 9)
     print(new_ary)
+
+    new_ary = api.Non_recursive_Stack_Quick_Sort(num_ary)
+    print(new_ary)
+
 
 
 
